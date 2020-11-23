@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Greetings} from './components/Greeting.jsx';
 
 const HelloComponent = () => {
-    return <h1>Hello World!</h1>;
+    return (
+    <div>
+    <Greetings />        
+    <h2>The React Component</h2>
+    </div>
+    );
 }
 
 ReactDOM.render(<HelloComponent />, document.getElementById('root'));
