@@ -41,6 +41,7 @@ git commit -m "Your message (max 50 characters) here"
 <code>git remote</code>
 <h4>Create remote branch for pushing</h4>
 <code>git remote add orgin (url of git repository)</code></br>
+<h4>Push changes to Git</h4>
 <code>git push -u origin main</code>
 
 
