@@ -37,6 +37,10 @@ git commit -m "Your message (max 50 characters) here"
 </code>
 <h3>3. Git Push</h3>
 <p>In order to push your changes back to git, you need to run this command.</br>The example contains the most basic scenario i.e. pushing to main baranch. </p>
+<h4>Check the Remote branch</h4>
+<code>git remote</code>
+<h4>Create remote branch for pushing</h4>
+<code>git remote add orgin (url of git repository)</code></br>
 <code>git push -u origin main</code>
 
 
