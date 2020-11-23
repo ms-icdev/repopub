@@ -35,5 +35,9 @@ git add readme.md
 <code>
 git commit -m "Your message (max 50 characters) here"
 </code>
+<h3>3. Git Push</h3>
+<p>In order to push your changes back to git, you need to run this command.</br>The example contains the most basic scenario i.e. pushing to main baranch. </p>
+<code>git push -u origin main</code>
+
 
 
